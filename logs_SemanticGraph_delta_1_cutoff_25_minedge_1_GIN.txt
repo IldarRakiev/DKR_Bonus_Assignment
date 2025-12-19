@@ -1,0 +1,48 @@
+============================================================
+GIN Link Prediction - 2025-12-19 00:14:00
+============================================================
+Dataset: C:\Projects\Science4Cast_18datasets\SemanticGraph_delta_1_cutoff_25_minedge_1.pkl
+Parameters:
+  epochs: 10
+  hidden_dim: 64
+  num_layers: 3
+  lr: 0.001
+  batch_size: 2048
+  edge_hidden: 64
+  weight_decay: 1e-05
+  dropout: 0.5
+  seed: 42
+  use_learnable_emb: False
+  train_ratio: 0.9
+  device: cpu
+
+Loading dataset...
+  year_start: 2019
+  years_delta: 1
+  vertex_degree_cutoff: 25
+  min_edges: 1
+  num_vertex_pairs: 10000000
+  positive_pairs: 22713
+  negative_pairs: 9977287
+
+Building edge_index...
+  num_edges (directed): 35784704
+
+Preparing train/test splits...
+  train_pairs: 8999999
+  train_positive: 20441
+  test_pairs: 1000001
+  test_positive: 2272
+
+Creating node features...
+  feature_mode: ones
+  in_dim: 1
+
+Data loading completed in 37.20s
+
+Initializing model...
+  total_parameters: 30,020
+
+========================================
+Starting training...
+========================================
