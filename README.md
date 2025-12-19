@@ -2,7 +2,7 @@
 
 ### The method implemented
 
-In this project, a **Graph Isomorphism Network (GIN)** is implemented for the link prediction task on the SemanticGraph datasets from the `FutureOfAIviaAI` benchmark.
+In this assignment, a **Graph Isomorphism Network (GIN)** is implemented for the link prediction task on the SemanticGraph datasets from the `FutureOfAIviaAI` benchmark.
 The model consists of a GIN-based node encoder and a shallow MLP edge decoder that predicts the probability of a future link between two nodes.
 
 - **Node encoder (GINEncoder)**  
@@ -130,4 +130,5 @@ done
 ```
 
 This loop will sequentially run the GIN model on each available dataset and create a corresponding log file for every configuration, analogous to how `evaluate_model.py` runs the original baseline (M6) on all 18 datasets.
+
 
